@@ -5,15 +5,15 @@ plugin: add-to-gallery
 # Sample on a report showing how much SharePoint Storage you can save by trimming document versions once the site is no longer active
 
 ## Summary
-The purpose of this script is to crete an overview: The total amount of SharePoint Storage used by this Site Collection, and how much could be saved by trimming the versions.
+The purpose of this script is to create an overview: The total amount of SharePoint Storage used by this Site Collection, and how much could be saved by trimming the versions.
 
 
 ## Implementation
 
-- Open VS Code or similar editor , ensure you are using POwerShell 7.2 or above
+- Open VS Code or a similar editor, and ensure you are using PowerShell 7.2 or above
 - Create a new file
 - Write a script as below,
-- Change the variables to target to your environment, site, document library, document path, max count
+- Change the variables to target your environment, site, document library, document path, max count
 - Run the script.
  
 ## Screenshot of Output 
@@ -24,7 +24,7 @@ The purpose of this script is to crete an overview: The total amount of SharePoi
 ```powershell
 
 
-#The purpose of this script is to crete an overview: The total amount of SharePoint Storage used by this Site Collection, and how much could be saved by trimming the versions
+#The purpose of this script is to create an overview: The total amount of SharePoint Storage used by this Site Collection, and how much could be saved by trimming the versions
 
 #Set Variables
 $SharePointAdminSiteURL = "https://[Your tenant]-admin.sharepoint.com"
